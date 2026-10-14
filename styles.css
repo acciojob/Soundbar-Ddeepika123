@@ -1,1 +1,50 @@
 /*  your css code here. If applicable */
+* {
+  box-sizing: border-box;
+  }
+
+body {
+background-color: rgb(161, 100, 223);
+font-family: Arial, sans-serif;
+display: flex;
+justify-content: center;
+align-items: center;
+min-height: 100vh;
+margin: 0;
+overflow: hidden;
+}
+
+#buttons {
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+align-items: center;
+gap: 20px;
+padding: 20px;
+}
+
+.btn,
+.stop {
+background-color: rebeccapurple;
+color: white;
+border: none;
+border-radius: 5px;
+padding: 24px 32px;
+font-size: 1.2rem;
+cursor: pointer;
+font-family: inherit;
+}
+
+.btn:hover,
+.stop:hover {
+opacity: 0.8;
+}
+
+.btn:active,
+.stop:active {
+transform: scale(0.96);
+}
+
+.stop {
+background-color: darkslateblue;
+}
